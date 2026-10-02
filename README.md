@@ -1,6 +1,6 @@
-# OpenRadAgent
+# VerifyGRPO-Rad
 
-Open agentic radiology: multi-agent planning and generation of radiology reports with open-weight vision-language models, report verification, and reinforcement-learning post-training.
+Radiology report verification with open-weight vision-language models: measuring whether a verifier uses the image, and GRPO post-training with verifiable rewards. Grew out of multi-agent planning and generation of radiology reports.
 
 This repository will hold the code, evaluation harness and model recipes of the lane as they are released, together with the papers that come out of it. Nothing here makes a claim ahead of the papers.
 
