@@ -1,0 +1,102 @@
+{
+ "training_judge": {
+  "raw": {
+   "a": [
+    "results/eval2/controls_v1/step0_in",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    "results/eval2/rep_s101_step_40",
+    "sweep_gated_default",
+    null
+   ]
+  },
+  "fill_target": {
+   "a": [
+    "results/eval2/filltarget/qbase/fill_target",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    "results/eval2/filltarget/q101/fill_target",
+    "record",
+    "swapcached"
+   ]
+  },
+  "fill_other": {
+   "a": [
+    "results/eval2/filltarget/qbase/fill_other",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    "results/eval2/filltarget/q101/fill_other",
+    "record",
+    "swapcached"
+   ]
+  },
+  "fill_all": {
+   "a": [
+    "results/eval2/orderfill/qbase/fill_only",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    "results/eval2/orderfill/q101/fill_only",
+    "record",
+    "swapcached"
+   ]
+  }
+ },
+ "independent_judge": {
+  "raw": {
+   "a": [
+    "results/eval2/val_step_0_xadj_medgemma",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    "results/eval2/xadj_medgemma/rep_s101_step_40",
+    "record",
+    "swapcached"
+   ]
+  },
+  "fill_target": {
+   "a": [
+    "results/eval2/filltarget/mbase/fill_target",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    "results/eval2/filltarget/m101/fill_target",
+    "record",
+    "swapcached"
+   ]
+  },
+  "fill_other": {
+   "a": [
+    "results/eval2/filltarget/mbase/fill_other",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    "results/eval2/filltarget/m101/fill_other",
+    "record",
+    "swapcached"
+   ]
+  },
+  "fill_all": {
+   "a": [
+    "results/eval2/orderfill/mbase/fill_only",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    "results/eval2/orderfill/m101/fill_only",
+    "record",
+    "swapcached"
+   ]
+  }
+ }
+}

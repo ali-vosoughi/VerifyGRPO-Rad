@@ -1,0 +1,58 @@
+{
+ "manifest": "results/locked/manifest_image_necessary.txt",
+ "pairs": "results/locked/pairs_e6_2026-09-19_0405.jsonl",
+ "base": {
+  "training_judge": [
+   "results/eval2/locked_base",
+   "sweep_gated_default",
+   null
+  ],
+  "independent_judge": [
+   "results/eval2/xadj_medgemma/locked_base",
+   "record",
+   "swapcached"
+  ],
+  "flag_reader": "results/eval2/locked_base/sweep_gated_default/rows.jsonl"
+ },
+ "seeds": {
+  "101": {
+   "training_judge": [
+    "results/eval2/locked_rep_s101_step_40",
+    "sweep_gated_default",
+    null
+   ],
+   "independent_judge": [
+    "results/eval2/xadj_medgemma/locked_rep_s101_step_40",
+    "record",
+    "swapcached"
+   ],
+   "flag_reader": "results/eval2/locked_rep_s101_step_40/sweep_gated_default/rows.jsonl"
+  },
+  "202": {
+   "training_judge": [
+    "results/eval2/locked_rep_s202_step_40",
+    "sweep_gated_default",
+    null
+   ],
+   "independent_judge": [
+    "results/eval2/xadj_medgemma/locked_rep_s202_step_40",
+    "record",
+    "swapcached"
+   ],
+   "flag_reader": "results/eval2/locked_rep_s202_step_40/sweep_gated_default/rows.jsonl"
+  },
+  "303": {
+   "training_judge": [
+    "results/eval2/locked_rep_s303_step_40",
+    "sweep_gated_default",
+    null
+   ],
+   "independent_judge": [
+    "results/eval2/xadj_medgemma/locked_rep_s303_step_40",
+    "record",
+    "swapcached"
+   ],
+   "flag_reader": "results/eval2/locked_rep_s303_step_40/sweep_gated_default/rows.jsonl"
+  }
+ }
+}

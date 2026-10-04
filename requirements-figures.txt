@@ -1,0 +1,5 @@
+# Figure builders (figures/build_*.py) read the analysis summaries only. Versions of the Python 3.13.5 environment
+# that built the submitted figures.
+matplotlib==3.11.1
+numpy==2.5.0
+pillow==12.2.0

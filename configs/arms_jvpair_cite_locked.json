@@ -1,0 +1,201 @@
+{
+ "manifest": "results/locked/manifest_image_necessary.txt",
+ "pairs": "results/locked/pairs_e6_2026-09-19_0405.jsonl",
+ "training_judge": {
+  "raw": {
+   "a": [
+    "results/eval2/judgeprompt/q8_cite_locked/base/readj",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/judgeprompt/q8_cite_locked/s101/readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgeprompt/q8_cite_locked/s202/readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgeprompt/q8_cite_locked/s303/readj",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "canonical": {
+   "a": [
+    "results/eval2/judgeprompt/q8_cite_locked/base/canon_readj",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/judgeprompt/q8_cite_locked/s101/canon_readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgeprompt/q8_cite_locked/s202/canon_readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgeprompt/q8_cite_locked/s303/canon_readj",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "order_only": {
+   "a": [
+    "results/eval2/judgeprompt/q8_cite_locked/base/order_only",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/judgeprompt/q8_cite_locked/s101/order_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgeprompt/q8_cite_locked/s202/order_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgeprompt/q8_cite_locked/s303/order_only",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "fill_only": {
+   "a": [
+    "results/eval2/judgeprompt/q8_cite_locked/base/fill_only",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/judgeprompt/q8_cite_locked/s101/fill_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgeprompt/q8_cite_locked/s202/fill_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgeprompt/q8_cite_locked/s303/fill_only",
+     "record",
+     "swapcached"
+    ]
+   ]
+  }
+ },
+ "independent_judge": {
+  "raw": {
+   "a": [
+    "results/eval2/judgeprompt/mg_cite_locked/base/readj",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/judgeprompt/mg_cite_locked/s101/readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgeprompt/mg_cite_locked/s202/readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgeprompt/mg_cite_locked/s303/readj",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "canonical": {
+   "a": [
+    "results/eval2/judgeprompt/mg_cite_locked/base/canon_readj",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/judgeprompt/mg_cite_locked/s101/canon_readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgeprompt/mg_cite_locked/s202/canon_readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgeprompt/mg_cite_locked/s303/canon_readj",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "order_only": {
+   "a": [
+    "results/eval2/judgeprompt/mg_cite_locked/base/order_only",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/judgeprompt/mg_cite_locked/s101/order_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgeprompt/mg_cite_locked/s202/order_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgeprompt/mg_cite_locked/s303/order_only",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "fill_only": {
+   "a": [
+    "results/eval2/judgeprompt/mg_cite_locked/base/fill_only",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/judgeprompt/mg_cite_locked/s101/fill_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgeprompt/mg_cite_locked/s202/fill_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgeprompt/mg_cite_locked/s303/fill_only",
+     "record",
+     "swapcached"
+    ]
+   ]
+  }
+ },
+ "note": "training judge vs MedGemma, both under variant cite; declared 2026-09-30 23:34 EDT (post hoc, before any read)"
+}

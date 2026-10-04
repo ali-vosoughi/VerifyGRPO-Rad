@@ -1,0 +1,23 @@
+# Training environment (VERL_VENV): GRPO training, parquet builders, checkpoint merging, the direct-supervision
+# baseline, and the CPU statistics. Python 3.11.16, CUDA 13.0 build of PyTorch.
+# Versions read with `pip list` from the environment that ran the study (2026-10-04); they match the versions the
+# training jobs printed (verl 0.9.1, vLLM 0.24.0, PyTorch 2.11.0, Transformers 5.9.0, PEFT 0.21.0).
+# flash-attn was not installed; the GRPO job then runs with SDPA attention and padding removal off.
+verl==0.9.1
+vllm==0.24.0
+torch==2.11.0
+torchvision==0.26.0
+transformers==5.9.0
+peft==0.21.0
+ray==2.58.0
+accelerate==1.15.0
+datasets==5.0.1
+huggingface_hub==1.33.0
+tokenizers==0.22.2
+safetensors==0.8.0
+qwen-vl-utils==0.0.14
+openai==3.19.2
+numpy==2.3.5
+pandas==3.0.6
+pyarrow==25.0.1
+pillow==12.3.0

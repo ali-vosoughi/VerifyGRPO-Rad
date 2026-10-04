@@ -1,0 +1,87 @@
+{
+ "manifest": "results/val_clean/manifest_image_necessary.txt",
+ "pairs": "results/val_clean/pairs_val_clean_in.jsonl",
+ "base_rows": "results/eval2/controls_v1/step0_in/record/rows.jsonl",
+ "control": {
+  "101": {
+   "training_judge": [
+    "results/eval2/rep_s101_step_40",
+    "sweep_gated_default",
+    null
+   ],
+   "independent_judge": [
+    "results/eval2/xadj_medgemma/rep_s101_step_40",
+    "record",
+    "swapcached"
+   ],
+   "flag_reader": "results/eval2/rep_s101_step_40/sweep_gated_default/rows.jsonl"
+  },
+  "202": {
+   "training_judge": [
+    "results/eval2/rep_s202_step_40",
+    "sweep_gated_default",
+    null
+   ],
+   "independent_judge": [
+    "results/eval2/xadj_medgemma/rep_s202_step_40",
+    "record",
+    "swapcached"
+   ],
+   "flag_reader": "results/eval2/rep_s202_step_40/sweep_gated_default/rows.jsonl"
+  },
+  "303": {
+   "training_judge": [
+    "results/eval2/rep_s303_step_40",
+    "sweep_gated_default",
+    null
+   ],
+   "independent_judge": [
+    "results/eval2/xadj_medgemma/rep_s303_step_40",
+    "record",
+    "swapcached"
+   ],
+   "flag_reader": "results/eval2/rep_s303_step_40/sweep_gated_default/rows.jsonl"
+  }
+ },
+ "oc": {
+  "101": {
+   "training_judge": [
+    "results/eval2/rep_s101_step_40",
+    "sweep_gated_default",
+    null
+   ],
+   "independent_judge": [
+    "results/eval2/xadj_medgemma/rep_s101_step_40",
+    "record",
+    "swapcached"
+   ],
+   "flag_reader": "results/eval2/rep_s101_step_40/sweep_gated_default/rows.jsonl"
+  },
+  "202": {
+   "training_judge": [
+    "results/eval2/rep_s202_step_40",
+    "sweep_gated_default",
+    null
+   ],
+   "independent_judge": [
+    "results/eval2/xadj_medgemma/rep_s202_step_40",
+    "record",
+    "swapcached"
+   ],
+   "flag_reader": "results/eval2/rep_s202_step_40/sweep_gated_default/rows.jsonl"
+  },
+  "303": {
+   "training_judge": [
+    "results/eval2/rep_s303_step_40",
+    "sweep_gated_default",
+    null
+   ],
+   "independent_judge": [
+    "results/eval2/xadj_medgemma/rep_s303_step_40",
+    "record",
+    "swapcached"
+   ],
+   "flag_reader": "results/eval2/rep_s303_step_40/sweep_gated_default/rows.jsonl"
+  }
+ }
+}

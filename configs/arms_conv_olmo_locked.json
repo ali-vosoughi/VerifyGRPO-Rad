@@ -1,0 +1,201 @@
+{
+ "manifest": "results/locked/manifest_image_necessary.txt",
+ "pairs": "results/locked/pairs_e6_2026-09-19_0405.jsonl",
+ "training_judge": {
+  "raw": {
+   "a": [
+    "results/eval2/judges3/olmo_locked/base/readj",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/judges3/olmo_locked/s101/readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judges3/olmo_locked/s202/readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judges3/olmo_locked/s303/readj",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "canonical": {
+   "a": [
+    "results/eval2/judges3/olmo_locked/base/canon_readj",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/judges3/olmo_locked/s101/canon_readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judges3/olmo_locked/s202/canon_readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judges3/olmo_locked/s303/canon_readj",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "order_only": {
+   "a": [
+    "results/eval2/judges3/olmo_locked/base/order_only",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/judges3/olmo_locked/s101/order_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judges3/olmo_locked/s202/order_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judges3/olmo_locked/s303/order_only",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "fill_only": {
+   "a": [
+    "results/eval2/judges3/olmo_locked/base/fill_only",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/judges3/olmo_locked/s101/fill_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judges3/olmo_locked/s202/fill_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judges3/olmo_locked/s303/fill_only",
+     "record",
+     "swapcached"
+    ]
+   ]
+  }
+ },
+ "independent_judge": {
+  "raw": {
+   "a": [
+    "results/eval2/conv/olmo_locked/base/readj",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/conv/olmo_locked/s101/readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/conv/olmo_locked/s202/readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/conv/olmo_locked/s303/readj",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "canonical": {
+   "a": [
+    "results/eval2/conv/olmo_locked/base/canon_readj",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/conv/olmo_locked/s101/canon_readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/conv/olmo_locked/s202/canon_readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/conv/olmo_locked/s303/canon_readj",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "order_only": {
+   "a": [
+    "results/eval2/conv/olmo_locked/base/order_only",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/conv/olmo_locked/s101/order_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/conv/olmo_locked/s202/order_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/conv/olmo_locked/s303/order_only",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "fill_only": {
+   "a": [
+    "results/eval2/conv/olmo_locked/base/fill_only",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/conv/olmo_locked/s101/fill_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/conv/olmo_locked/s202/fill_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/conv/olmo_locked/s303/fill_only",
+     "record",
+     "swapcached"
+    ]
+   ]
+  }
+ },
+ "note": "judge olmo: default instruction (training_judge slot) vs explicit convention (independent_judge slot); declared 2026-09-28 20:16 EDT"
+}

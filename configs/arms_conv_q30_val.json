@@ -1,0 +1,201 @@
+{
+ "manifest": "results/val_clean/manifest_image_necessary.txt",
+ "pairs": "results/val_clean/pairs_val_clean_in.jsonl",
+ "training_judge": {
+  "raw": {
+   "a": [
+    "results/eval2/judges3/q30_val/base/readj",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/judges3/q30_val/s101/readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judges3/q30_val/s202/readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judges3/q30_val/s303/readj",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "canonical": {
+   "a": [
+    "results/eval2/judges3/q30_val/base/canon_readj",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/judges3/q30_val/s101/canon_readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judges3/q30_val/s202/canon_readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judges3/q30_val/s303/canon_readj",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "order_only": {
+   "a": [
+    "results/eval2/judges3/q30_val/base/order_only",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/judges3/q30_val/s101/order_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judges3/q30_val/s202/order_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judges3/q30_val/s303/order_only",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "fill_only": {
+   "a": [
+    "results/eval2/judges3/q30_val/base/fill_only",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/judges3/q30_val/s101/fill_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judges3/q30_val/s202/fill_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judges3/q30_val/s303/fill_only",
+     "record",
+     "swapcached"
+    ]
+   ]
+  }
+ },
+ "independent_judge": {
+  "raw": {
+   "a": [
+    "results/eval2/conv/q30_val/base/readj",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/conv/q30_val/s101/readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/conv/q30_val/s202/readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/conv/q30_val/s303/readj",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "canonical": {
+   "a": [
+    "results/eval2/conv/q30_val/base/canon_readj",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/conv/q30_val/s101/canon_readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/conv/q30_val/s202/canon_readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/conv/q30_val/s303/canon_readj",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "order_only": {
+   "a": [
+    "results/eval2/conv/q30_val/base/order_only",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/conv/q30_val/s101/order_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/conv/q30_val/s202/order_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/conv/q30_val/s303/order_only",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "fill_only": {
+   "a": [
+    "results/eval2/conv/q30_val/base/fill_only",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/conv/q30_val/s101/fill_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/conv/q30_val/s202/fill_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/conv/q30_val/s303/fill_only",
+     "record",
+     "swapcached"
+    ]
+   ]
+  }
+ },
+ "note": "judge q30: default instruction (training_judge slot) vs explicit convention (independent_judge slot); declared 2026-09-28 20:16 EDT"
+}

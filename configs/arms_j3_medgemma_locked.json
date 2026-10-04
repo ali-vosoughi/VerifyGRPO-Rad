@@ -1,0 +1,200 @@
+{
+ "manifest": "results/locked/manifest_image_necessary.txt",
+ "pairs": "results/locked/pairs_e6_2026-09-19_0405.jsonl",
+ "training_judge": {
+  "raw": {
+   "a": [
+    "results/eval2/locked_base",
+    "sweep_gated_default",
+    null
+   ],
+   "b": [
+    [
+     "results/eval2/locked_rep_s101_step_40",
+     "sweep_gated_default",
+     null
+    ],
+    [
+     "results/eval2/locked_rep_s202_step_40",
+     "sweep_gated_default",
+     null
+    ],
+    [
+     "results/eval2/locked_rep_s303_step_40",
+     "sweep_gated_default",
+     null
+    ]
+   ]
+  },
+  "order_only": {
+   "a": [
+    "results/eval2/locked_forms/qbase/order_only",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/locked_forms/q101/order_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/locked_forms/q202/order_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/locked_forms/q303/order_only",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "fill_only": {
+   "a": [
+    "results/eval2/locked_forms/qbase/fill_only",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/locked_forms/q101/fill_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/locked_forms/q202/fill_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/locked_forms/q303/fill_only",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "canonical": {
+   "a": [
+    "results/eval2/locked_forms/qbase/canon_readj",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/locked_forms/q101/canon_readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/locked_forms/q202/canon_readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/locked_forms/q303/canon_readj",
+     "record",
+     "swapcached"
+    ]
+   ]
+  }
+ },
+ "independent_judge": {
+  "raw": {
+   "a": [
+    "results/eval2/xadj_medgemma/locked_base",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/xadj_medgemma/locked_rep_s101_step_40",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/xadj_medgemma/locked_rep_s202_step_40",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/xadj_medgemma/locked_rep_s303_step_40",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "order_only": {
+   "a": [
+    "results/eval2/locked_forms/mbase/order_only",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/locked_forms/m101/order_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/locked_forms/m202/order_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/locked_forms/m303/order_only",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "fill_only": {
+   "a": [
+    "results/eval2/locked_forms/mbase/fill_only",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/locked_forms/m101/fill_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/locked_forms/m202/fill_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/locked_forms/m303/fill_only",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "canonical": {
+   "a": [
+    "results/eval2/locked_forms/mbase/canon_readj",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/locked_forms/m101/canon_readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/locked_forms/m202/canon_readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/locked_forms/m303/canon_readj",
+     "record",
+     "swapcached"
+    ]
+   ]
+  }
+ }
+}

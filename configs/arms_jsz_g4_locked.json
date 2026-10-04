@@ -1,0 +1,201 @@
+{
+ "manifest": "results/locked/manifest_image_necessary.txt",
+ "pairs": "results/locked/pairs_e6_2026-09-19_0405.jsonl",
+ "training_judge": {
+  "raw": {
+   "a": [
+    "results/eval2/locked_base",
+    "sweep_gated_default",
+    null
+   ],
+   "b": [
+    [
+     "results/eval2/locked_rep_s101_step_40",
+     "sweep_gated_default",
+     null
+    ],
+    [
+     "results/eval2/locked_rep_s202_step_40",
+     "sweep_gated_default",
+     null
+    ],
+    [
+     "results/eval2/locked_rep_s303_step_40",
+     "sweep_gated_default",
+     null
+    ]
+   ]
+  },
+  "order_only": {
+   "a": [
+    "results/eval2/locked_forms/qbase/order_only",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/locked_forms/q101/order_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/locked_forms/q202/order_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/locked_forms/q303/order_only",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "fill_only": {
+   "a": [
+    "results/eval2/locked_forms/qbase/fill_only",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/locked_forms/q101/fill_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/locked_forms/q202/fill_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/locked_forms/q303/fill_only",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "canonical": {
+   "a": [
+    "results/eval2/locked_forms/qbase/canon_readj",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/locked_forms/q101/canon_readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/locked_forms/q202/canon_readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/locked_forms/q303/canon_readj",
+     "record",
+     "swapcached"
+    ]
+   ]
+  }
+ },
+ "independent_judge": {
+  "raw": {
+   "a": [
+    "results/eval2/judgesize/g4_locked/base/readj",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/judgesize/g4_locked/s101/readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgesize/g4_locked/s202/readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgesize/g4_locked/s303/readj",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "canonical": {
+   "a": [
+    "results/eval2/judgesize/g4_locked/base/canon_readj",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/judgesize/g4_locked/s101/canon_readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgesize/g4_locked/s202/canon_readj",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgesize/g4_locked/s303/canon_readj",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "order_only": {
+   "a": [
+    "results/eval2/judgesize/g4_locked/base/order_only",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/judgesize/g4_locked/s101/order_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgesize/g4_locked/s202/order_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgesize/g4_locked/s303/order_only",
+     "record",
+     "swapcached"
+    ]
+   ]
+  },
+  "fill_only": {
+   "a": [
+    "results/eval2/judgesize/g4_locked/base/fill_only",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    [
+     "results/eval2/judgesize/g4_locked/s101/fill_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgesize/g4_locked/s202/fill_only",
+     "record",
+     "swapcached"
+    ],
+    [
+     "results/eval2/judgesize/g4_locked/s303/fill_only",
+     "record",
+     "swapcached"
+    ]
+   ]
+  }
+ },
+ "note": "independent_judge slot = judge g4 (default message); declared 2026-09-30 23:34 EDT (post hoc, before any read)"
+}

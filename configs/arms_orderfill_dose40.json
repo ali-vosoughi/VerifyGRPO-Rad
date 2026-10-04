@@ -1,0 +1,10 @@
+{"training_judge": {
+  "raw": ["results/eval2/controls_v1/step0_in", "record", "swapcached", "results/eval2/dose_v1_lr1e-4_step_40", "sweep_gated_default", null],
+  "order_only": ["results/eval2/orderfill/qbase/order_only", "record", "swapcached", "results/eval2/orderfill/q40/order_only", "record", "swapcached"],
+  "fill_only": ["results/eval2/orderfill/qbase/fill_only", "record", "swapcached", "results/eval2/orderfill/q40/fill_only", "record", "swapcached"],
+  "canonical": ["results/eval2/canon/qwen_base/canon_readj", "record", "swapcached", "results/eval2/canon/qwen_dose40/canon_readj", "record", "swapcached"]},
+ "independent_judge": {
+  "raw": ["results/eval2/val_step_0_xadj_medgemma", "record", "swapcached", "results/eval2/xadj_medgemma/dose40", "record", "swapcached"],
+  "order_only": ["results/eval2/orderfill/mbase/order_only", "record", "swapcached", "results/eval2/orderfill/m40/order_only", "record", "swapcached"],
+  "fill_only": ["results/eval2/orderfill/mbase/fill_only", "record", "swapcached", "results/eval2/orderfill/m40/fill_only", "record", "swapcached"],
+  "canonical": ["results/eval2/canon/medgemma_base/canon_readj", "record", "swapcached", "results/eval2/canon/medgemma_dose40/canon_readj", "record", "swapcached"]}}

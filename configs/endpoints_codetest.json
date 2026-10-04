@@ -1,0 +1,7 @@
+{"manifest": "results/val_clean/manifest_image_necessary.txt", "pairs": "results/val_clean/pairs_val_clean_in.jsonl",
+ "base": {"training_judge": ["results/eval2/controls_v1/step0_in", "record", "swapcached"],
+          "independent_judge": ["results/eval2/val_step_0_xadj_medgemma", "record", "swapcached"],
+          "flag_reader": "results/eval2/controls_v1/step0_in/record/rows.jsonl"},
+ "seeds": {"dose40": {"training_judge": ["results/eval2/dose_v1_lr1e-4_step_40", "sweep_gated_default", null],
+                      "independent_judge": ["results/eval2/xadj_medgemma/dose40", "record", "swapcached"],
+                      "flag_reader": "results/eval2/dose_v1_lr1e-4_step_40/sweep_gated_default/rows.jsonl"}}}

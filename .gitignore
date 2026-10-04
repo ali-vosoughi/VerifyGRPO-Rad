@@ -1,0 +1,31 @@
+# Working-directory outputs (the scripts write under $CLAIMBLIND_ROOT; none of these are part of the release)
+/code/
+/results/
+/runs/
+/logs/
+/outputs/
+/artifacts/
+/figs/
+/domain2/
+/data/verl_v1/
+/data/dose_v1/
+/data/rep_s*/
+/data/sft/
+*.parquet
+# Harness data and caches (dataset files, pair builds, image cache, model cache)
+/harness/datasets/
+/harness/results/
+/harness/runs/
+/harness/logs/
+/harness/hf_cache/
+hf_cache/
+image_cache/
+datasets/
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Secrets (keep tokens in your home directory, never in the repository)
+.env
+.hf_env

@@ -1,0 +1,17 @@
+# Harness environment (HARNESS_VENV): checklist writing and every checker read through a local vLLM server, the
+# record-form rereads, the claim-first references, and the photograph study. Python 3.11.16.
+# Versions read with `pip list` from the environment that ran the study (2026-10-04).
+vllm==0.29.0
+torch==2.13.0
+torchvision==0.28.0
+transformers==5.17.0
+huggingface_hub==1.32.0
+tokenizers==0.23.2
+safetensors==0.8.0
+openai==3.19.0
+numpy==2.3.5
+pillow==12.3.0
+# harness/code/scripts/build_pairs.py also needs pandas and pyarrow; the study ran it with these versions, taken from
+# the training environment (they were not installed in the harness environment):
+pandas==3.0.6
+pyarrow==25.0.1

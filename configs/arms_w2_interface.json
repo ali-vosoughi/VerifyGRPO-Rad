@@ -1,0 +1,54 @@
+{
+ "training_judge": {
+  "raw": {
+   "a": [
+    "results/eval2/xadj_qwen3/w2_base",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    "results/eval2/xadj_qwen3/w2_s101_40",
+    "record",
+    "swapcached"
+   ]
+  },
+  "canonical": {
+   "a": [
+    "results/eval2/canon/qwen_w2_base/canon_readj",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    "results/eval2/canon/qwen_w2_s101_40/canon_readj",
+    "record",
+    "swapcached"
+   ]
+  }
+ },
+ "independent_judge": {
+  "raw": {
+   "a": [
+    "results/eval2/xadj_medgemma/w2_base",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    "results/eval2/xadj_medgemma/w2_s101_40",
+    "record",
+    "swapcached"
+   ]
+  },
+  "canonical": {
+   "a": [
+    "results/eval2/canon/medgemma_w2_base/canon_readj",
+    "record",
+    "swapcached"
+   ],
+   "b": [
+    "results/eval2/canon/medgemma_w2_s101_40/canon_readj",
+    "record",
+    "swapcached"
+   ]
+  }
+ }
+}
