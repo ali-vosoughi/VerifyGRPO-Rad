@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "VerifyGRPO-Rad"
+abstract: "Code, configurations, prompts, and pair identifiers for the paper 'Unmentioned Checklist Findings Change How Reinforcement Learning Appears to Improve Chest Radiograph Report Checking'."
+type: software
+license: MIT
+repository-code: "https://github.com/ali-vosoughi/VerifyGRPO-Rad"
+authors:
+  - family-names: Vosoughi
+    given-names: Ali
+    orcid: "https://orcid.org/0000-0003-1014-2937"
+    affiliation: University of Rochester
+  - family-names: Kasturi
+    given-names: Akhil
+    orcid: "https://orcid.org/0009-0002-1079-2606"
+    affiliation: University of Rochester
+  - family-names: Xu
+    given-names: Chenliang
+    orcid: "https://orcid.org/0000-0002-2183-822X"
+    affiliation: University of Rochester
+  - family-names: Wismueller
+    given-names: Axel
+    orcid: "https://orcid.org/0009-0005-2048-1555"
+    affiliation: University of Rochester
+preferred-citation:
+  type: generic
+  title: "Unmentioned Checklist Findings Change How Reinforcement Learning Appears to Improve Chest Radiograph Report Checking"
+  authors:
+    - family-names: Vosoughi
+      given-names: Ali
+    - family-names: Kasturi
+      given-names: Akhil
+    - family-names: Xu
+      given-names: Chenliang
+    - family-names: Wismueller
+      given-names: Axel
+  year: 2026
+  notes: "Preprint. Submitted to npj Digital Medicine."
