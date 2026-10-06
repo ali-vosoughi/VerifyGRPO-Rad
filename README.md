@@ -2,8 +2,9 @@
 
 Ali Vosoughi, Akhil Kasturi, Chenliang Xu, Axel Wismueller · University of Rochester
 
-**Preprint, not yet peer reviewed.** Submitted to *npj Digital Medicine* (2026). arXiv link to be added.
+**Preprint, not yet peer reviewed:** [arXiv:2610.05425](https://arxiv.org/abs/2610.05425). Submitted to *npj Digital Medicine* (2026).
 
+[![arXiv](https://img.shields.io/badge/arXiv-2610.05425-b31b1b.svg)](https://arxiv.org/abs/2610.05425)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)
 
@@ -83,10 +84,14 @@ The jobs are Slurm batch scripts for NVIDIA GPUs; a training run uses three 48 G
 
 ```bibtex
 @misc{vosoughi2026unmentioned,
-  title  = {Unmentioned Checklist Findings Change How Reinforcement Learning Appears to Improve Chest Radiograph Report Checking},
-  author = {Vosoughi, Ali and Kasturi, Akhil and Xu, Chenliang and Wismueller, Axel},
-  year   = {2026},
-  note   = {Preprint. Submitted to npj Digital Medicine}
+  title         = {Unmentioned Checklist Findings Change How Reinforcement Learning Appears to Improve Chest Radiograph Report Checking},
+  author        = {Vosoughi, Ali and Kasturi, Akhil and Xu, Chenliang and Wismueller, Axel},
+  year          = {2026},
+  eprint        = {2610.05425},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  doi           = {10.48550/arXiv.2610.05425},
+  note          = {Submitted to npj Digital Medicine}
 }
 ```
 

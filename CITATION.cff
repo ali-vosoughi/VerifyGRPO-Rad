@@ -35,4 +35,6 @@ preferred-citation:
     - family-names: Wismueller
       given-names: Axel
   year: 2026
-  notes: "Preprint. Submitted to npj Digital Medicine."
+  doi: "10.48550/arXiv.2610.05425"
+  url: "https://arxiv.org/abs/2610.05425"
+  notes: "arXiv:2610.05425. Submitted to npj Digital Medicine."
