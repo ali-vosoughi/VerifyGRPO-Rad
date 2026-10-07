@@ -2,7 +2,7 @@
 
 Ali Vosoughi, Akhil Kasturi, Chenliang Xu, Axel Wismueller · University of Rochester
 
-**Preprint, not yet peer reviewed:** [arXiv:2610.05425](https://arxiv.org/abs/2610.05425). Submitted to *npj Digital Medicine* (2026).
+**Paper:** [arXiv:2610.05425](https://arxiv.org/abs/2610.05425) (v1, 4 Oct 2026, CC BY 4.0), preprint, not yet peer reviewed; submitted to *npj Digital Medicine* (2026).
 
 [![arXiv](https://img.shields.io/badge/arXiv-2610.05425-b31b1b.svg)](https://arxiv.org/abs/2610.05425)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -94,6 +94,7 @@ If you use this code, the released checklists or the evaluation protocol, please
   archivePrefix = {arXiv},
   primaryClass  = {cs.CV},
   doi           = {10.48550/arXiv.2610.05425},
+  url           = {https://arxiv.org/abs/2610.05425},
   note          = {Submitted to npj Digital Medicine}
 }
 ```
