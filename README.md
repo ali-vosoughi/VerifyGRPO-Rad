@@ -82,6 +82,9 @@ The jobs are Slurm batch scripts for NVIDIA GPUs; a training run uses three 48 G
 
 ## Citation
 
+If you use this code, the released checklists or the evaluation protocol, please cite the arXiv paper
+([arXiv:2610.05425](https://arxiv.org/abs/2610.05425)):
+
 ```bibtex
 @misc{vosoughi2026unmentioned,
   title         = {Unmentioned Checklist Findings Change How Reinforcement Learning Appears to Improve Chest Radiograph Report Checking},
